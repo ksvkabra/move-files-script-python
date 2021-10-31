@@ -8,6 +8,7 @@ l5 = [3, 342, 21321, 123, 7]
 l6 = [3, 2, 1, 43, 3]
 l7 = [3, 2, 1, 4, 3]
 l8 = l1.copy()
+l9 = [3, 2, 1, 4, 3]
 
 print(l1 == l2)  # True
 print(l1 == l3)  # False
@@ -18,6 +19,7 @@ print(l6 == l2)  # False
 print(l7 == l3)  # True
 print(l4 == l5)  # True
 print(l1 == l8)  # True
+print(l7 == l9)  # True
 
 for i, j in enumerate(l1[1:]):
     print(i, j)

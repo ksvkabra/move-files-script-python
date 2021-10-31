@@ -1,5 +1,6 @@
 import os
 import shutil
+# test path
 path = '/media/keshav/Local Disk/study/PHP for Beginners - udemy'
 
 # create a new folder
